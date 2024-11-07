@@ -1,0 +1,31 @@
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    block-size: 80vdh;
+    flex-wrap: wrap;
+}
+
+li{
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+li img{
+    inline-size: 200px;
+    block-size: 350px;
+}
+
+.btn{
+    border-radius: 10px;
+    color: #f0f0f0;
+    background-color: forestgreen;
+    margin-top: 20px;
+    width: 80px;
+}
